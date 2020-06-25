@@ -1,3 +1,3 @@
 #! /bin/bash
 
-kill $(ps aux | grep java | grep util | awk  '{print $2}')
+kill $(ps aux | grep java | grep util-site | awk  '{print $2}')

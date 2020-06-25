@@ -8,10 +8,10 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.marcuschiu.util</groupId>
-	<artifactId>util</artifactId>
+	<groupId>com.marcuschiu.util-site</groupId>
+	<artifactId>util-site</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>util</name>
+	<name>util-site</name>
 	<description>utilities</description>
 
 	<properties>
