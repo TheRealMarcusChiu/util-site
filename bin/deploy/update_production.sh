@@ -1,6 +1,6 @@
 #! /bin/bash
 
-ssh pi@192.168.86.28 << EOF
+ssh ubuntu-server.local << EOF
     cd util-site/
     git pull origin master
     ./bin/deploy/kill-app.sh
