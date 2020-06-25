@@ -1,4 +1,4 @@
-package com.marcuschiu.util.util.model;
+package com.marcuschiu.utilsite.model;
 
 import lombok.Data;
 

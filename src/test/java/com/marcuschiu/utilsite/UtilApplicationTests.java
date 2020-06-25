@@ -1,4 +1,4 @@
-package com.marcuschiu.util.util;
+package com.marcuschiu.utilsite;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

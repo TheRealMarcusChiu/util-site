@@ -1,18 +1,16 @@
-package com.marcuschiu.util.util.controller;
+package com.marcuschiu.utilsite.controller;
 
-import com.marcuschiu.util.util.model.Request;
+import com.marcuschiu.utilsite.model.Request;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashMap;
 
 @RestController
-public class UtilController {
+public class UtilRestController {
 
     @GetMapping(value="/display-request-data")
     public @ResponseBody Request processData(HttpServletRequest request) {
