@@ -7,7 +7,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UtilController {
 
     @GetMapping("/")
-    public String greeting() {
+    public String home() {
         return "index";
+    }
+
+    @GetMapping("/my-ip-address-and-port")
+    public String myIpAddressAndPort() {
+        return "my-ip-address-and-port";
+    }
+
+    @GetMapping("/request")
+    public String request() {
+        return "request";
     }
 }

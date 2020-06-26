@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Util</title>
+    <link rel="icon" href="static/images/favicon.ico">
+</head>
+<body>
+    <h1>Util Site</h1>
+    <a href="/">home</a>
+    <p>or click <a href="/api/my-ip-address-and-port">/api/my-ip-address-and-port</a> for json</p>
+    <script type="text/javascript" th:src="@{/my-ip-address-and-port.js}"></script>
+</body>
+</html>

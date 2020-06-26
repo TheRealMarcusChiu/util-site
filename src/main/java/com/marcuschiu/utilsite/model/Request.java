@@ -6,10 +6,10 @@ import java.util.HashMap;
 
 @Data
 public class Request {
-    String HTTPMethod;
+    String httpMethod;
     String pathInfo;
-    String sourceIPAddress;
-    Integer sourcePortNumber;
-    HashMap<String, String> HTTPHeaders;
-    HashMap<String, String> URLParameters;
+    String ipAddress;
+    String port;
+    HashMap<String, String> httpHeaders;
+    HashMap<String, String> urlParameters;
 }
