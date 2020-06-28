@@ -15,6 +15,11 @@ import java.util.HashMap;
 @RequestMapping(value = "/api")
 public class UtilRestController {
 
+    @GetMapping(value = "alive")
+    public @ResponseBody String alive() {
+        return "true";
+    }
+
     @GetMapping(value = "/my-ip-address-and-port")
     public @ResponseBody MyIPAddressAndPort myIPAddressAndPort(HttpServletRequest request) {
         MyIPAddressAndPort response = new MyIPAddressAndPort();
