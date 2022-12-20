@@ -1,0 +1,15 @@
+[Unit]
+Description=Util Service Application
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/root/util-service/bin/start.sh
+ExecStop=/root/util-service/bin/stop.sh
+
+[Install]
+WantedBy=multi-user.target
