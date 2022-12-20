@@ -1,4 +1,4 @@
 #! /bin/bash
 
-cd /root/util-service/
+cd /root/util-site/
 ./mvnw spring-boot:run

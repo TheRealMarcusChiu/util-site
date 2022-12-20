@@ -1,7 +1,7 @@
 #! /bin/bash
 
-ssh quicktionary << EOF
-    cd util-service-backend
+ssh util-site << EOF
+    cd util-site
     git pull origin master
     ./bin/stop.sh
 EOF

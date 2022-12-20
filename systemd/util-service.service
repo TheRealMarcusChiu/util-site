@@ -1,9 +1,9 @@
-# place into /lib/systemd/system/util-service.service
+# place into /lib/systemd/system/util-site.service
 # sudo systemctl daemon-reload
-# systemctl start util-service
-# systemctl enable util-service
+# systemctl start util-site
+# systemctl enable util-site
 [Unit]
-Description=Util Service Application
+Description=Util Site Application
 After=network.target
 StartLimitIntervalSec=0
 
@@ -12,8 +12,8 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/root/util-service/bin/start.sh
-ExecStop=/root/util-service/bin/stop.sh
+ExecStart=/root/util-site/bin/start.sh
+ExecStop=/root/util-site/bin/stop.sh
 
 [Install]
 WantedBy=multi-user.target
