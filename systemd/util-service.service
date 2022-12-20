@@ -1,3 +1,7 @@
+# place into /lib/systemd/system/util-service.service
+# sudo systemctl daemon-reload
+# systemctl start util-service
+# systemctl enable util-service
 [Unit]
 Description=Util Service Application
 After=network.target
